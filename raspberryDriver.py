@@ -55,7 +55,7 @@ class RP5_CH2:
         GPIO.output(self.ports[1],GPIO.LOW)
         GPIO.output(self.ports[0],GPIO.HIGH)
         
-    def left_forward(self):
+    def right_back(self):
         GPIO.output(self.ports[2],GPIO.LOW)
         GPIO.output(self.ports[3],GPIO.HIGH)
 
